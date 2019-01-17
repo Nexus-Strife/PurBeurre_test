@@ -1,1 +1,1 @@
-web: gunicorn pur_beurre.wgsi
+web: gunicorn web_app.wgsi
