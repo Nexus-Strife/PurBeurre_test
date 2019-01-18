@@ -1,0 +1,96 @@
+#fancy_txt
+{
+    text-shadow: 2px 2px 2px black;
+}
+
+
+#slogan {
+    text-shadow: 2px 2px 2px black;
+}
+
+
+#desc_slogan {
+    text-shadow: 2px 2px 2px black;
+}
+
+#panel_title {
+    text-shadow: 2px 2px 2px black;
+}
+
+#panel_reg {
+      width: 50%;
+      margin: 0 auto;
+}
+
+.grade_container {
+height: 40px;
+width: 40px;
+background-color: orange;
+border-radius: 50%;
+position: absolute;
+top: -22px;
+right: 0;
+left: 210px;
+}
+
+.grade {
+position: absolute;
+top: 7px;
+right: 0px;
+left: 0px;
+}
+
+.grade_prod {
+position: absolute;
+top: 7px;
+right: 0px;
+left: 0px;
+}
+
+.grade_container_sub {
+height: 40px;
+width: 40px;
+background-color: orange;
+border-radius: 50%;
+position: absolute;
+top: -22px;
+right: -10px;
+}
+
+.grade_container_prod {
+height: 40px;
+width: 40px;
+background-color: orange;
+border-radius: 50%;
+position: absolute;
+top: -22px;
+right: -10px;
+}
+
+.crop {
+width: 140px;
+overflow: hidden;
+height: 50px;
+line-height: 50px;
+white-space: nowrap; /* Don't forget this one */
+text-overflow: ellipsis;
+}​
+
+::-webkit-input-placeholder {
+         font-style: italic;
+}
+
+
+:-moz-placeholder {
+         font-style: italic;
+}
+
+
+::-moz-placeholder {
+         font-style: italic;
+}
+
+
+:-ms-input-placeholder {
+         font-style: italic;
+}
