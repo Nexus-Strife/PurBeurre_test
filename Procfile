@@ -1,1 +1,1 @@
-web: gunicorn 'pur_beurre.wgsi' --log-file -
+web: gunicorn 'pur_beurre.wsgi' --log-file -
