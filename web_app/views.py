@@ -11,12 +11,6 @@ from .forms import LoginForm, RegisterForm, SearchForm, SaveForm, SearchForm_Nav
 from .models import Products, Favs
 import psycopg2
 
-hostname = 'localhost'
-user = 'postgres'
-password = 'C1li2tn45!'
-database = 'pur_beurre'
-
-
 def index(request):
 
     if request.method == 'POST':
@@ -198,7 +192,7 @@ def my_favs(request):  # Display the saved products of an user
         form_nav = SearchForm_NavBar()
     #  Select all products from the prod_id's column
 
-    test_prods = Products.objects.raw("SELECT p.name AS prod_name, p.grade AS prod_grade, p.id AS produ_id,"
+    lst_prods = Products.objects.raw("SELECT p.name AS prod_name, p.grade AS prod_grade, p.id AS produ_id,"
                                       " p.img_url as img, sp.img_url as image, p.grade as grade,"
                                       " sp.grade as nutriscore, sp.name AS sub_name,"
                                       " sp.id AS sub_prod_id, waf.id"
