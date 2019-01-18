@@ -8,10 +8,10 @@ import json
 import time
 from math import ceil
 
-hostname = 'localhost'
-user = 'postgres'
-password = 'C1li2tn45!'
-database = 'pur_beurre'
+hostname = 'ec2-46-137-170-51.eu-west-1.compute.amazonaws.com'
+user = 'jqmycofunttsdr'
+password = 'c3af69734c38a2b9ef3e6b1fed0fd048f4c5350ed7313ea69fac2d99cfb920a3'
+database = 'ddlvjjgmhb8itu'
 
 
 class Command(BaseCommand):
