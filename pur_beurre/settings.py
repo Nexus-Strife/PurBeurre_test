@@ -25,7 +25,7 @@ SECRET_KEY = '2sgeo63##%r81l9d605jlnaw+x46+_@g4mv@q-#(4q6o6jhq%z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['beurre-pur.heroku.com']
+ALLOWED_HOSTS = ['oc-beurre-pur.heroku.com']
 
 
 # Application definition
