@@ -8,10 +8,10 @@ import json
 import time
 from math import ceil
 
-hostname = 'ec2-46-137-170-51.eu-west-1.compute.amazonaws.com'
-user = 'jqmycofunttsdr'
-password = 'c3af69734c38a2b9ef3e6b1fed0fd048f4c5350ed7313ea69fac2d99cfb920a3'
-database = 'ddlvjjgmhb8itu'
+hostname = 'ec2-54-75-245-94.eu-west-1.compute.amazonaws.com'
+user = 'igrtjmoefrebxh'
+password = '01c0aa4065c571838b1b348c9e67ccb928e594fa9b0283a0a460846da40a394c'
+database = 'dagkjbl47d8fje'
 
 
 class Command(BaseCommand):
