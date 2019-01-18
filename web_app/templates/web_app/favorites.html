@@ -71,7 +71,7 @@
 <section class="bg-primary text-center text-white d-flex" id="by">
     <div class="container my-auto">
         <div class="row">
-            {% for prod in test_prods %}
+            {% for prod in lst_prods %}
             <ul>
                 <div class="col-lg-12">
                     <a href="{% url 'web_app:details' prod.prod_name %}"><img src="{{ prod.img }}" height="150" width="130" alt="{{ prod.prod_name }}"></a><div class="grade_container_prod"><div class="grade_prod">{{ prod.prod_grade }}</div></div>
