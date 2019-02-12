@@ -16,7 +16,7 @@ class RegisterForm(forms.Form):
 
 
 class SearchForm(forms.Form):
-    research = forms.CharField(label="Recherche", widget=forms.TextInput(attrs={'placeholder': 'Exemple: Nutella...', 'class': 'form-control input-sm', 'autocomplete': 'off'}))
+    research = forms.CharField(label="Recherche", widget=forms.TextInput(attrs={'placeholder': 'Exemple: Chocolat...', 'class': 'form-control input-sm', 'autocomplete': 'off'}))
 
 
 class SearchForm_NavBar(forms.Form):
