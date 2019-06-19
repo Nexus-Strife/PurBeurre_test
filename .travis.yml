@@ -3,10 +3,6 @@ language: python
 python:
   - "3.6"
   
-install: 
-  - pip3 install pipenv
-  - pipenv install 
-  
 before_script:
   - pip install -r requirements.txt
 
@@ -16,4 +12,4 @@ services:
   - postgresql
 
 script:
-  - ./manage.py test
+  - python3 manage.py test
