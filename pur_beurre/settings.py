@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql', # on utilise l'adaptateur postgresql
         'NAME': 'pur_beurre', # le nom de notre base de donnees creee precedemment
-        'USER': 'nex', # attention : remplacez par votre nom d'utilisateur
-        'PASSWORD': 'C1li2tn45!',
+        'USER': 'postgres', # attention : remplacez par votre nom d'utilisateur
+        'PASSWORD': '',
         'HOST': '',
         'PORT': '5432',
     }
