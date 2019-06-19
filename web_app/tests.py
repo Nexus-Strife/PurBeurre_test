@@ -23,18 +23,16 @@ class RegisterPageTestCase(TestCase):
         self.assertEqual(response.status_code, 200)
         
         
-class LoginPageTestCase(TestCase):	
-
-     """Test the login page"""	
-
-     def test_login_page(self):	
+class LoginPageTestCase(TestCase):
+     """Test the login's page"""
+        
+    def test_login_page(self):	
         response = self.client.get(reverse('web_app:login'))	
         self.assertEqual(response.status_code, 200)	
 
 
- class TestAPI(TestCase):	
-
-     def test_api_json(self):	
+ class TestAPI(TestCase):
+    def test_api_json(self):
         response = self.client.get('https://fr.openfoodfacts.org/categories.json')	
         self.assertEqual(response.status_code, 200)	
 
