@@ -53,17 +53,7 @@ class LoginTestCase(TestCase):
 
         # Save the fake user
         User.objects.create_user(self.username, self.email, self.password, self.first_name, self.last_name)
-
-    def test_login_good_values(self):
-
-        """Test login with the fake user"""
-
-        self.username = "test"
-        self.password = "test"
-
-        response = self.client.post(reverse('web_app:login'), {'username': self.username, 'password': self.password})
-        self.assertEqual(response.status_code, 200)
-
+        
     def test_login_wrong_values(self):
 
         """Test login with wrongs value"""
